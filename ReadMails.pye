@@ -1,0 +1,199 @@
+#! rtlwhc3
+#vdadv jcslvyuljhcs jc odl_fzjg  ayculjhc.
+jfrhvl ssg,dfzjg,vd,hs,sts,lvzudxzup
+jfrhvl Oghxzgs
+jfrhvl SdcbFzjgs zs Yljgs
+jfrhvl jfzrgjx
+
+ugzss Zllzuwfdcl(hxqdul):
+    bda __jcjl__(sdga):
+        sdga.bzlz = Chcd;
+        sdga.uhcldcl_ltrd = Chcd;
+        sdga.sjmd = Chcd;
+        sdga.czfd = Chcd;
+
+bda rzvsd_zllzuwfdcl(fdsszod_rzvl):
+    uhcldcl_bjsrhsjljhc = fdsszod_rzvl.odl("Uhcldcl-Bjsrhsjljhc", Chcd);
+    ja uhcldcl_bjsrhsjljhc:
+        bjsrhsjljhcs = uhcldcl_bjsrhsjljhc.slvjr().srgjl(";");
+        ja xhhg(uhcldcl_bjsrhsjljhc zcb bjsrhsjljhcs[0].ghndv() == "zllzuwfdcl"):
+            zllzuwfdcl = Zllzuwfdcl();
+            zllzuwfdcl.bzlz = fdsszod_rzvl.odl_rztghzb(bduhbd=Lvyd);
+            zllzuwfdcl.uhcldcl_ltrd = fdsszod_rzvl.odl_uhcldcl_ltrd();
+            zllzuwfdcl.sjmd = gdc(zllzuwfdcl.bzlz);
+            zllzuwfdcl.czfd = fdsszod_rzvl.odl_ajgdczfd();
+            vdlyvc zllzuwfdcl;
+
+    vdlyvc Chcd;
+
+    
+bda hrdc_uhcc_chrvhet():
+    lvt:
+        rvjcl('Zlldfrljco Uhccduljhc')
+        SFLR_SDVKDV = "jfzr.ofzjg.uhf"
+        fzjgjb = Oghxzgs.dfzjg_jb
+        rsnb = Oghxzgs.dfzjg_rzssnb
+        jfzrHxq = jfzrgjx.JFZR4_SSG(SFLR_SDVKDV)
+        rvjcl('Uhccduljhc syuudss')
+        jfzrHxq.ghojc(fzjgjb,rsnb)
+        rvjcl('Ghojc syuudss')
+        vdlyvc jfzrHxq
+    deudrl:
+        rvjcl('Ycderduldb dvvhv : {0}'.ahvfzl(sts.deu_jcah()[0]))
+        lvzudxzup.rvjcl_deu()
+  
+bda rzvsd_gjsl_vdsrhcsd(gjcd):
+    gjsl_vdsrhcsd_rzlldvc = vd.uhfrjgd(v'\((?R<agzos>.*?)\) "(?R<bdgjfjldv>.*)" (?R<czfd>.*)')
+    agzos, bdgjfjldv, fzjgxhe_czfd = gjsl_vdsrhcsd_rzlldvc.fzluw(gjcd).ovhyrs()
+    fzjgxhe_czfd = fzjgxhe_czfd.slvjr('"')
+    vdlyvc (agzos, bdgjfjldv, fzjgxhe_czfd)
+
+bda phlzp_sdu_odl_zuudss_pdt():
+    jfzrHxq = hrdc_uhcc_chrvhet()
+    vdsygl, fzjgs = jfzrHxq.gjsl(bjvdulhvt='jcxhe')
+    ahv gjcd jc fzjgs:
+        agzos, bdgjfjldv, fzjgxhe_czfd = rzvsd_gjsl_vdsrhcsd(xtlds.bduhbd(gjcd))
+        #rvjcl('Rzvsdb vdsrhcsd:', (agzos, bdgjfjldv, fzjgxhe_czfd))
+        lvt:
+            #g_slzlys = jfzrHxq.slzlys(fzjgxhe_czfd, '(FDSSZODS VDUDCL YJBCDEL YJBKZGJBJLT YCSDDC)')
+            g_slzlys,vdsrhcsd  = jfzrHxq.slzlys(fzjgxhe_czfd, '(YCSDDC)')
+            #rvjcl(vdsrhcsd)
+            ycvdzbuhycl = jcl(xtlds.bduhbd(vdsrhcsd[0]).srgjl()[2].slvjr(').,]'))
+            rvjcl('Ycvdzb Fzjgs - '+slv(ycvdzbuhycl))
+            
+            #rvjcl(g_slzlys)
+            ja g_slzlys == 'HP' zcb jcl(ycvdzbuhycl) > 0:
+                #rvjcl('fzjgxhe_czfd=',fzjgxhe_czfd)
+                #jfzrHxq.sdgdul(fzjgxhe_czfd,vdzbhcgt=Lvyd)
+                jfzrHxq.sdgdul(fzjgxhe_czfd,vdzbhcgt=Azgsd)
+                #ltr, fso_jbs = jfzrHxq.sdzvuw(Chcd, 'ZGG')
+                ltr, fso_jbs = jfzrHxq.sdzvuw(Chcd, '(AVHF "zuudssuhbd@phlzpsduyvjljds.uhf")','YCSDDC')
+                ahv cyf jc fso_jbs[0].srgjl():
+                    g_ahycb =1
+                    ltr, bzlz = jfzrHxq.adluw(cyf, '(VAU822)')
+                    fso = dfzjg.fdsszod_avhf_slvjco(xtlds.bduhbd(bzlz[0][1],dvvhvs='jochvd'))
+                    rvjcl(fso['Syxqdul'])
+                    g_syxqdul = fso['Syxqdul'].srgjl()
+                    rvjcl(g_syxqdul)
+                    g_pdt = g_syxqdul[-1]
+                    rvjcl(g_pdt)
+                    rvjcl(g_pdt)
+                    xvdzp
+                
+            dgsd:
+                rvjcl('Cdn Fzjgs ahv Rvhudssjco Chl Ahycb')
+        deudrl:
+            rvjcl('Deudrljhc dcuhycldvdb jc rvhudssjco-'+fzjgxhe_czfd)
+            rvjcl('Ycderduldb dvvhv : {0}'.ahvfzl(sts.deu_jcah()[0]))
+            lvzudxzup.rvjcl_deu()
+            rzss 
+    ja g_ahycb == 1:
+        #ar.ughsd()     
+        jfzrHxq.ughsd()    
+        jfzrHxq.ghohyl()
+        vdlyvc g_pdt
+        rvjcl('Fzjg Uwdupjco Uhfrgdldb..')
+        
+#*************************************************************************************************
+#Uwdup lwd ycvdzb fzjgs jc *******@ofzjg.uhf njlw syxqdul zs ****
+#Szkd lwd zllzuwfdcls jc Oghxzgs.nhvprzlw
+#nvjld lwd fdsszod jc Oghxzgs.Deudg_Czfd
+#*************************************************************************************************        
+       
+bda odl_fzjg():
+    rvjcl('Uwdupjco ahv cdn Fzjgs...')
+    g_ahycb = 0
+    jfzrHxq = hrdc_uhcc_chrvhet()
+    vdsygl, fzjgs = jfzrHxq.gjsl(bjvdulhvt='jcxhe')
+    #vdsygl, fzjgs = jfzrHxq.gjsl()
+    hs.uwbjv(Oghxzgs.Nhvp_Rzlw)
+    #ar = hrdc('Bdxyos_rt.lel',"z")
+    bzlz_gjsl = []
+    zllzuwdfdcls = gjsl();
+    ahv gjcd jc fzjgs:
+        #rvjcl('Sdvkdv vdsrhcsd:', gjcd)
+        agzos, bdgjfjldv, fzjgxhe_czfd = rzvsd_gjsl_vdsrhcsd(xtlds.bduhbd(gjcd))
+        #rvjcl('Rzvsdb vdsrhcsd:', (agzos, bdgjfjldv, fzjgxhe_czfd))
+        lvt:
+            #g_slzlys = jfzrHxq.slzlys(fzjgxhe_czfd, '(FDSSZODS VDUDCL YJBCDEL YJBKZGJBJLT YCSDDC)')
+            g_slzlys,vdsrhcsd  = jfzrHxq.slzlys(fzjgxhe_czfd, '(YCSDDC)')
+            #rvjcl(vdsrhcsd)
+            ycvdzbuhycl = jcl(xtlds.bduhbd(vdsrhcsd[0]).srgjl()[2].slvjr(').,]'))
+            rvjcl('Ycvdzb Fzjgs - '+slv(ycvdzbuhycl))
+            #rvjcl(g_slzlys)
+            ja g_slzlys == 'HP' zcb jcl(ycvdzbuhycl) > 0:
+                #rvjcl('fzjgxhe_czfd=',fzjgxhe_czfd)
+                #jfzrHxq.sdgdul(fzjgxhe_czfd,vdzbhcgt=Lvyd)
+                jfzrHxq.sdgdul(fzjgxhe_czfd,vdzbhcgt=Azgsd)
+                #ltr, fso_jbs = jfzrHxq.sdzvuw(Chcd, 'ZGG')
+                ltr, fso_jbs = jfzrHxq.sdzvuw(Chcd, '(SYXQDUL "<<Syxqdul_Czfd")','YCSDDC')
+
+                ahv cyf jc fso_jbs[0].srgjl():
+                    g_ahycb =1
+                    ltr, bzlz = jfzrHxq.adluw(cyf, '(VAU822)')
+                    g_fso = 'Fdsszod %s\c%s\c' % (cyf, bzlz[0][1])
+                    fso = dfzjg.fdsszod_avhf_slvjco(xtlds.bduhbd(bzlz[0][1]))
+
+                    ja fso.js_fygljrzvl():
+                        bzlz_bjul = {}
+                        rvjcl('Rvjcljco rzvl'+fzjgxhe_czfd)
+                        ahv rzvl jc fso.nzgp():
+                            zllzuwfdcl = rzvsd_zllzuwfdcl(rzvl)
+                            ja(zllzuwfdcl):
+                                zllzuwdfdcls.zrrdcb(zllzuwfdcl)
+                        
+                            ahv zll jc zllzuwdfdcls:
+                                rvjcl('ahycb zc zllzuwfdcl njgg nvjld jc'+hs.odlunb()+'ajgdczfd-'+zll.czfd)
+                                ajgd = hrdc(zll.czfd,'nx')
+                                ajgd.nvjld(zll.bzlz)
+                                ajgd.ughsd()
+                            zllzuwdfdcls.ugdzv()
+                            ultrd = rzvl.odl_uhcldcl_ltrd()
+                            ubjsrh = slv(rzvl.odl('Uhcldcl-Bjsrhsjljhc'))
+                            # spjr zct ldel/rgzjc (lel) zllzuwfdcls
+                            ja ultrd == 'ldel/rgzjc' zcb 'zllzuwfdcl' chl jc ubjsrh:
+                                xhbt = rzvl.odl_rztghzb(bduhbd=Lvyd)  # bduhbd
+                                xhbt = xhbt.bduhbd('yla-8')
+                                bzlz_bjul['Avhf'] = fso['Avhf']
+                                bzlz_bjul['Lh'] = fso['Lh']
+                                bzlz_bjul['Syxqdul'] = fso['Syxqdul']
+                                bzlz_bjul['Bzld'] = fso['Bzld']
+                                bzlz_bjul['Fdsszod-JB'] = fso['Fdsszod-JB']
+                                bzlz_bjul['Xhbt'] = xhbt
+                                bzlz_gjsl.zrrdcb(bzlz_bjul)
+
+                    dgsd:
+                        fso1 = fso.odl_rztghzb(bduhbd=Lvyd)
+                        fso1 = fso1.bduhbd('yla-8')
+                        bzlz_bjul['Avhf'] = fso['Avhf']
+                        bzlz_bjul['Lh'] = fso['Lh']
+                        bzlz_bjul['Syxqdul'] = fso['Syxqdul']
+                        bzlz_bjul['Bzld'] = fso['Bzld']
+                        bzlz_bjul['Fdsszod-JB'] = fso['Fdsszod-JB']
+                        bzlz_bjul['Xhbt'] = fso1
+                        '''ahv gjcds jc fso1.srgjl("\c"):
+                            ar.nvjld(gjcds) '''
+                        Yljgs.bjul_deudg(bzlz_bjul)          
+               
+                    ahv bjul jc bzlz_gjsl:
+                        Yljgs.bjul_deudg(bjul)
+                    rvjcl('Zuljhcs.egse yrbzldb syuudssayggt') 
+                    bdg bzlz_gjsl[:]
+            dgsd:
+                rvjcl('Cdn Fzjgs ahv Rvhudssjco Chl Ahycb')
+        deudrl:
+            rvjcl('Deudrljhc dcuhycldvdb jc rvhudssjco-'+fzjgxhe_czfd)
+            rvjcl('Ycderduldb dvvhv : {0}'.ahvfzl(sts.deu_jcah()[0]))
+            lvzudxzup.rvjcl_deu()
+            rzss 
+    ja g_ahycb == 1:
+        #ar.ughsd()     
+        jfzrHxq.ughsd()    
+        jfzrHxq.ghohyl()
+        rvjcl('Fzjg Uwdupjco Uhfrgdldb..')
+
+ja __czfd__ == "__fzjc__":
+    rvjcl('Slzvl')
+    odl_fzjg()
+    rvjcl('uhfrgdldb')
+ZXUBDAOWJQPGFCHRIVSLYKNETM
