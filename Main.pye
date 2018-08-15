@@ -1,0 +1,31 @@
+#! rtlwhc3
+jfrhvl suwdbygd,lwvdzbjco,ljfd,hs,sts,bzldljfd
+avhf bzldljfd jfrhvl bzldljfd
+jfrhvl VdzbFzjgs
+jfrhvl SdcbFzjgs
+''' syxqdul: <<Srdujaju_Syx>> 
+    LH: <<Bdsl_Dfzjg>>
+    Ahvfzls: ODL <Ajgdczfd> <hvbdv ja zct> Do: ODL yvg.lel 
+    ja fygljrgd ajgds zvd ahycb, rzlw zcb ajgdczfds njgg xd sdcl ysjco nwjuw avdsw vdi lh xd sdcl njlw hvbdv ch. ODL yvg.lel 1 
+'''
+
+bda suwdbygd_lzsps():
+    rvjcl('Uwdup Fzjgs :: {}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+    lwvdzbhxq1 = lwvdzbjco.Lwvdzb(lzvodl = VdzbFzjgs.odl_fzjg)
+    lwvdzbhxq1.slzvl()
+    rvjcl('Bhcd..Njgg sgddr ahv 5 sdus ljfd- {}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+    ljfd.sgddr(5)
+    rvjcl('Rvhudss Fzjgs :: {}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+    lwvdzbhxq2 = lwvdzbjco.Lwvdzb(lzvodl = SdcbFzjgs.rdcbjco_jldfs)
+    lwvdzbhxq2.slzvl()
+    rvjcl('Bhcd..Njgg sgddr ahv 5 sdus ljfd-{}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+    ljfd.sgddr(5)
+   
+ja __czfd__ == "__fzjc__":
+    rvjcl('Slzvl ha Zylhfzljhc...zl {}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+    suwdbygd.dkdvt(1).fjcylds.bh(suwdbygd_lzsps)
+    nwjgd Lvyd:
+        #ljfd.sgddr(10) 
+        suwdbygd.vyc_rdcbjco()
+        ljfd.sgddr(10)
+ZXUBDAOWJQPGFCHRIVSLYKNETM
