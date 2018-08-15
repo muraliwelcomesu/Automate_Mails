@@ -1,0 +1,48 @@
+jfrhvl njc32sdvkjud
+jfrhvl njc32sdvkjudyljg
+jfrhvl njc32dkdcl
+jfrhvl suwdbygd,lwvdzbjco,ljfd,hs,sts,bzldljfd
+avhf bzldljfd jfrhvl bzldljfd
+jfrhvl VdzbFzjgs
+jfrhvl SdcbFzjgs
+avhf cyfrt.bjslyljgs.auhfrjgdv jfrhvl chcd
+
+
+    
+ugzss RtlwhcLzspSku(njc32sdvkjudyljg.SdvkjudAvzfdnhvp):
+    _sku_czfd_ = "RtlwhcLzspSku"
+    _sku_bjsrgzt_czfd_ = "Rtlwhc Lzsp Suwdbygjco Sdvkjud"
+    _sku_bdsuvjrljhc_ = "Lwjs Rtlwhc Sdvkjud Suwdbygds Lzsps"
+    
+    bda __jcjl__(sdga,zvos):
+        njc32sdvkjudyljg.SdvkjudAvzfdnhvp.__jcjl__(sdga, zvos)
+        sdga.wNzjlSlhr = njc32dkdcl.UvdzldDkdcl(Chcd,0,0,Chcd)
+            
+    bda SkuBhVyc(sdga):
+        bda suwdbygd_lzsps():
+            rvjcl('Uwdup Fzjgs :: {}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+            lwvdzbhxq1 = lwvdzbjco.Lwvdzb(lzvodl = VdzbFzjgs.odl_fzjg)
+            lwvdzbhxq1.slzvl()
+            rvjcl('Bhcd..Njgg sgddr ahv 5 sdus ljfd- {}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+            ljfd.sgddr(5)
+            rvjcl('Rvhudss Fzjgs :: {}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+            lwvdzbhxq2 = lwvdzbjco.Lwvdzb(lzvodl = SdcbFzjgs.rdcbjco_jldfs)
+            lwvdzbhxq2.slzvl()
+            rvjcl('Bhcd..Njgg sgddr ahv 5 sdus ljfd-{}'.ahvfzl(bzldljfd.chn().slvaljfd("%T-%f-%b %W:%F")))
+            ljfd.sgddr(5)
+        suwdbygd.dkdvt(15).fjcylds.bh(suwdbygd_lzsps)
+        vu = Chcd
+        nwjgd vu != njc32dkdcl.NZJL_HXQDUL_0:
+            suwdbygd.vyc_rdcbjco()
+            vu = njc32dkdcl.NzjlAhvSjcogdHxqdul(sdga.wNzjlSlhr,5000)
+    
+    bda SkuSlhr(sdga):
+        sdga.VdrhvlSdvkjudSlzlys(njc32sdvkjud.SDVKJUD_SLHR_RDCBJCO)
+        njc32dkdcl.SdlDkdcl(sdga.wNzjlSlhr)
+            
+ja __czfd__ =='__fzjc__':
+    njc32sdvkjudyljg.WzcbgdUhffzcbGjcd(RtlwhcLzspSku)
+    
+#--------------------------------------------------------------------------------
+#rtlwhc Lzsp_Suwdbygdv_Sku.rt jcslzgg
+ZXUBDAOWJQPGFCHRIVSLYKNETM
